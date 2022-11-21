@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="1.데이터베이스 오픈"
+        android:layout_weight="1"
+        android:id="@+id/button"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="customer.db"
+        android:layout_weight="1"
+        android:id="@+id/editText2"
+        android:inputType="textPersonName"
+        android:ems="10"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2. 테이블 만들기" android:layout_weight="1" android:id="@+id/button2"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="customer" android:layout_weight="1" android:id="@+id/editText3" android:inputType="textPersonName" android:ems="10"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="3. 데이터 추가하기" android:layout_weight="1" android:id="@+id/button3"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="홍길동" android:layout_weight="1" android:id="@+id/editText4" android:inputType="textPersonName"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="20" android:layout_weight="1" android:id="@+id/editText5" android:inputType="numberDecimal"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="010-1321-4421" android:layout_weight="1" android:id="@+id/editText6" android:inputType="textPersonName"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="4. 데이터 조회하기" android:id="@+id/button4"/>
+
+</LinearLayout>
+
+
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:background="@android:color/holo_orange_light">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView" android:textSize="24sp"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
